@@ -1,0 +1,67 @@
+body {
+	background-image: url("../images/cheap_diagonal_fabric.png");
+}
+
+header {
+	font-size: 30px;
+	color: #b552b7;
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px;
+}
+
+h2,
+h3 {
+	font-size: 20px;
+	color: #b552b7;
+}
+
+.gameInstructions {
+	width: 600px;
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+}
+
+.numberToMatchDiv {
+	background-color: #fff;
+	width: 200px;
+	height: 60px;
+	padding: 10px;
+	margin: 10px; 
+}
+
+.crystalImage {
+	width: 150px;
+	height: 150px;
+	padding: 0px;
+	margin: 10px; 
+}
+
+.totalScoreDiv {
+	background-color: #fff;
+	width: 200px;
+	height: 60px;
+	padding: 10px;
+	margin: 10px; 
+}
+
+.winsAndLossesDiv {
+	background-color: #fff;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	margin: 10px; 
+}
+
+#wins, 
+#losses {
+	font-size: 20px;
+	color: black;
+}
+
+#totalScore,
+#numberToGuess {
+	font-size: 50px;
+	color: black;
+}
