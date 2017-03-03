@@ -1,67 +1,217 @@
 body {
-	background-image: url("../images/cheap_diagonal_fabric.png");
+	background-image: url("../images/sparkle.jpg");
+	background-size: cover;
+	z-index: -100;
 }
 
 header {
-	font-size: 30px;
-	color: #b552b7;
-	background-color: #fff;
 	padding: 10px;
-	margin: 10px;
+	background-image: url("../images/jemEyes2.jpg");
+	background-size: cover;
+	height: 90px;
 }
 
-h2,
+header h1 {
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+audio {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
 h3 {
 	font-size: 20px;
-	color: #b552b7;
+	color: #AD05A1;
+	font-weight: bold;
+}
+
+.jemDiv1 {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	opacity: 0.5;
+	background-image: url("../images/jemTall.png");
+	background-size: cover;
+	width: 250px;
+	height: 600px;
+}
+
+.jemDiv2 {
+	position: absolute;
+	right: 0;
+	top: 150px;
+	opacity: 0.5;
+	background-image: url("../images/jemTall.png");
+	background-size: cover;
+	width: 250px;
+	height: 600px;
 }
 
 .gameInstructions {
-	width: 600px;
-	padding: 10px;
-	margin: 10px;
-	background-color: #fff;
+	width: 800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(250, 230, 250, 0.85);
+	border: 2px solid #AD05A1;
+}
+
+.gameInstructions p {
+	text-align: center;
+	font-size: 20px;
+	color: #AD05A1;
+}
+
+.gameInstructions h2 {
+	font-size: 30px;
+	color: #AD05A1;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #AD05A1;
+	padding-bottom: 5px;
+}
+
+.numberWrapper {
+	width: 800px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .numberToMatchDiv {
-	background-color: #fff;
-	width: 200px;
-	height: 60px;
-	padding: 10px;
-	margin: 10px; 
+	clear: both;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 300px;
+	background-color: rgba(250, 230, 250, 0.90);
+	border: 2px solid #AD05A1;
+}
+
+.numberToMatchDiv h2 {
+	font-size: 20px;
+	color: #AD05A1;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #AD05A1;
+	padding-bottom: 5px;
+}
+
+#numberToGuess {
+	padding-left: 135px;
+	margin-top: 10px;
+	color: #AD05A1;
+	font-size: 40px;
+}
+
+.totalScoreDiv {
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 300px;
+	background-color: rgba(250, 230, 250, 0.90);
+	border: 2px solid #AD05A1;
+}
+
+.totalScoreDiv h2 {
+	font-size: 20px;
+	color: #AD05A1;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #AD05A1;
+	padding-bottom: 5px;
+}
+
+#totalScore {
+	padding-left: 135px;
+	margin-top: 10px;
+	color: #AD05A1;
+	font-size: 40px;
+}
+
+.crystals {
+	clear: both;
+	width: 800px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .crystalImage {
 	width: 150px;
-	height: 150px;
-	padding: 0px;
-	margin: 10px; 
+	height: 250px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-right: 20px;
+	padding-left: 25px;
 }
 
-.totalScoreDiv {
-	background-color: #fff;
-	width: 200px;
-	height: 60px;
-	padding: 10px;
-	margin: 10px; 
+#crystalOne,
+#crystalTwo,
+#crystalThree,
+#crystalFour
+ {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+#crystalOne:hover,
+#crystalThree:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#crystalTwo:hover,
+#crystalFour:hover {
+	-webkit-transform: rotate(20deg);
+     -moz-transform: rotate(20deg);
+       -o-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+          transform: rotate(20deg);
 }
 
 .winsAndLossesDiv {
-	background-color: #fff;
-	width: 200px;
-	height: 40px;
-	padding: 10px;
-	margin: 10px; 
+	width: 800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(250, 230, 250, 0.90);
+	border: 2px solid #AD05A1;
+	text-align: center;
 }
 
 #wins, 
 #losses {
+	color: #AD05A1;
 	font-size: 20px;
-	color: black;
-}
-
-#totalScore,
-#numberToGuess {
-	font-size: 50px;
-	color: black;
 }
