@@ -9,6 +9,7 @@ header {
 	background-image: url("../images/jemEyes2.jpg");
 	background-size: cover;
 	height: 90px;
+	border-bottom: 5px solid #ffffff;
 }
 
 header h1 {
@@ -16,6 +17,8 @@ header h1 {
 	color: #ffffff;
 	font-weight: bold;
 	padding-top: 10px;
+	border-bottom: 5px solid #ffffff;
+	width: 360px;
 }
 
 audio {
